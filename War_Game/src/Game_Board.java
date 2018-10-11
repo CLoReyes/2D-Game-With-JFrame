@@ -39,7 +39,7 @@ public class Game_Board extends JPanel implements ActionListener, KeyListener
 		
 		//get resource is how you get the image
 		Graphics2D g2 = (Graphics2D)g;
-		// X, Y, Width, Height
+		// X, Y, Width, HeightRe
 		//plus 50 on the x axis
 		g2.drawImage(map, 0, 0, this);
 		g2.drawImage(player, 200, 350, this);
